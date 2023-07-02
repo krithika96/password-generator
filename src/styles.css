@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.LoginForm {
+  margin: 50px;
+}
+
+.input {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.input > div {
+  font-weight: 800;
+}
+
+/* .input > input {
+
+}  */
+
+button {
+  margin: 20px;
+  color: black;
+  background-color: lightseagreen;
+}
+
+.profile-details {
+  display: flex;
+  /* justify-content:flex-start; */
+  align-self: auto;
+  flex-direction: column;
+  gap: 20px;
+  border: 2px solid gold;
+  padding: 20px;
+  margin: 20px;
+}
